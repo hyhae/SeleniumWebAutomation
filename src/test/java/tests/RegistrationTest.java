@@ -48,8 +48,6 @@ public class RegistrationTest {
 	public String confirmPassword;
 	@Parameter(8)
 	public String expectedResult;
-	@Parameter(9)
-	public String expectedUrl;
 
 	@Parameters(name = "{1}")
 	public static String[][] data() throws IOException {
